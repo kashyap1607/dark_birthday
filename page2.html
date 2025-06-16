@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Memories</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #2a003f, #50046d);
+      color: white;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+    }
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      color: #ff77bb;
+      animation: fadeIn 3s ease;
+    }
+    .memory-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .memory-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 2rem;
+      max-width: 800px;
+      width: 100%;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .memory-card:hover {
+      transform: scale(1.02);
+    }
+    .memory-card h2 {
+      color: #ffc0ea;
+    }
+    .memory-card p {
+      margin-top: 0.5rem;
+    }
+    .btn-next {
+      display: inline-block;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background-color: #ff4d6d;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn-next:hover {
+      background: #e9004f;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Sweetest Memories 💫</h1>
+  </header>
+
+  <section class="memory-container">
+    <div class="memory-card">
+      <h2>Our first meet</h2>
+      <p>I still remember the way We are silent , lmao!! . but Today is the Day we send each other our  First "Hello" , And now we are here.</p>
+    </div>
+    <div class="memory-card">
+      <h2>The First Hug</h2>
+      <p>That Day is the most memoriable day I ever Spended After Navratri . In the middle of all public I rised my hand for hand shake and you just huged me That is too Unexpected Everyone looking at us.......</p>
+    </div>
+    <div class="memory-card">
+      <h2>The Promise</h2>
+      <p>I don't know is this relationship will be success but I'll promise that I'll never leave you and always here to  support you.....</p>
+    </div>
+  </section>
+
+  <div style="text-align:center">
+    <a href="page3.html" class="btn-next">Reveal the Surprise 🎁</a>
+  </div>
+</body>
+</html>
